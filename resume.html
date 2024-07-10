@@ -23,9 +23,7 @@
     .header {
         background-color: #373d48;
         color: white;
-        padding-left: 30px;
-        padding-top: 15px;
-        padding-bottom: 20px;
+        padding: 10px 30px 10px 30px;
     }
 
     .header-text {
@@ -40,22 +38,32 @@
         width: 100%;
     }
 
+    .sub-header-text-2 {
+        font-size: var(--body-sub-header-size);
+        font-weight: normal;
+        width: 100%;
+    }
+
     .left-body {
         background-color: #ffffff;
-        padding: 0 30px 30px 30px;
+        padding: 0 30px 30px 45px;
+        flex: 0 0 72.5%;
+        max-width: 72.5%;
     }
 
     .right-body {
         background-color: #f4f4f4;
-        padding: 0 30px 30px 20px;
+        padding: 0 45px 30px 20px;
+        flex: 0 0 27.5%;
+        max-width: 27.5%;
     }
 
     .separator {
         width: 100%;
         height: 0.75px;
         margin-top: 2px;
-        margin-bottom: 2px;
-        background-color: #e7e7e7;
+        margin-bottom: 10px;
+        background-color: #b4b4b4;
     }
 
     .body-header {
@@ -63,7 +71,7 @@
         font-size: var(--body-header-size);
         font-weight: bold;
         width: 100%;
-        padding-top: 10px;
+        padding-top: 5px;
     }
 
     .body-sub-header {
@@ -137,6 +145,24 @@
         padding: 3px 5px 3px 5px;
         font-weight: bold;
     }
+
+    ul.no-bullets {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    label.label-header {
+        width: 100%;
+    }
+
+    label.no-padding {
+        margin-bottom: 0px;
+    }
+
+    .date {
+        font-style: italic;
+    }
 </style>
 
 <body>
@@ -157,8 +183,12 @@
         <div class="container-fluid">
             <div class="row no-gutters">
                 <div class="col-8">
-                    <label class="header-text">Sanjevi Naidu</label>
+                    <label class="header-text no-padding">Sanjevi Naidu</label>
                     <label class="sub-header-text">Senior Full Stack Engineer</label>
+                    <label class="sub-header-text-2">naidusanjevi@gmail.com | 8148574564 |
+                        <a class="hyperlink" href="https://www.linkedin.com/in/sanjevi-naidu/" target="_blank"
+                            rel="noopener noreferrer">LinkedIn</a>
+                    </label>
                 </div>
                 <div class="col-4 text-right center align-self-center">
                     <a class="button pdf-outline" href="./Sanjevi_Naidu_Resume.pdf" download target="_blank"
@@ -173,58 +203,17 @@
     <!-- Resume Data -->
     <div class="container-fluid">
         <div class="row">
-            <div class="col-9 left-body">
+            <div class="col left-body">
                 <!-- Objective -->
                 <div>
-                    <label class="pt-3">
-                        Senior Full Stack Engineer familiar with a wide range of
-                        programming utilities and languages. Knowledgeable of software development
-                        and Devops requirements. Able to handle any part of
-                        the process with ease. Collaborative team player with excellent
-                        technical abilities offering 6.5 years of related experience.
-                    </label>
-                </div>
-
-                <!-- Work History -->
-                <div>
-                    <label class="body-header">Work History</label>
+                    <label class="body-header">Summary</label>
                     <div class="separator"></div>
-
-                    <div class="container-fluid">
-                        <!-- Overall -->
-                        <div class="row">
-                            <div class="col-4">
-                                <label class="body-sub-header">Dec 2022 - Present · 1yr 4 mos</label>
-                            </div>
-                            <div class="col-8">
-                                <label class="body-sub-header">Associate Technical Delivery Manager</label><br>
-                                <label>Accolite Digital Pvt. Ltd., Bengaluru, Karnataka.</label><br>
-                                <!-- <label>(Service based)</label> -->
-                            </div>
-                        </div>
-                        <br>
-                        <div class="row">
-                            <div class="col-4">
-                                <label class="body-sub-header">Nov 2020 - Dec 2022 · 2 yr 1 mon</label>
-                            </div>
-                            <div class="col-8">
-                                <label class="body-sub-header">Senior Software Developer</label><br>
-                                <label>Wissen Technology, Bengaluru, Karnataka.</label><br>
-                                <!-- <label>(Service based)</label> -->
-                            </div>
-                        </div>
-                        <br>
-                        <div class="row">
-                            <div class="col-4">
-                                <label class="body-sub-header">Sep 2017 - Nov 2020 · 3 yrs 2 mos</label>
-                            </div>
-                            <div class="col-8">
-                                <label class="body-sub-header">Member of Technical Team II</label><br>
-                                <label>Ubq Technologies Pvt. Ltd., Bengaluru, Karnataka.</label><br>
-                                <!-- <label>(Product based)</label> -->
-                            </div>
-                        </div>
-                    </div>
+                    <label>
+                        Accomplished Senior Full Stack Engineer with over 7 years of experience in software development
+                        and DevOps. Proven expertise in Java, Spring Boot, Angular, and various database technologies.
+                        Seeking to leverage my skills and experience to contribute to high-impact projects in a dynamic
+                        organization, driving innovation and optimizing performance.
+                    </label>
                 </div>
 
                 <!-- Product Information -->
@@ -233,295 +222,123 @@
                     <div class="separator"></div>
 
                     <div>
-                        <label class="body-sub-header">Accolite Digital (Client- Fidelity Investments) -
-                            Projects:</label>
+                        <label class="body-sub-header no-padding">Associate Technical Delivery Manager</label>
+                        <label class="label-header no-padding">Accolite Digital Pvt. Ltd. | Fidelity Investments
+                            (Contractor), Bengaluru, Karnataka</label>
+                        <label class="date no-padding">Dec 2022 – Present</label>
                         <ul>
-                            <li>
-                                <div class="mt-2">
-                                    <label class="bold">Integrated Portfolio Construction - Fund Rating App</label><br>
-                                    <label>Management of Clients/Users Service Requests</label><br>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="mt-2">
-                                    <label class="bold">Automated Account Approval</label><br>
-                                    <label>Management Client/User Account Details</label><br>
-                                </div>
-                            </li>
+                            <li>Developed batch job and producer API applications for Fund Rating, improving processing
+                                efficiency by 30%.</li>
+                            <li>Automated the account approval process, increasing approval accuracy by 25%.</li>
+                            <li>Automated service request processing, reducing manual intervention by 90%.</li>
+                            <li>Collaborated with developers, testers, and business analysts to resolve technical issues
+                                quickly.</li>
+                            <li>Ensured compliance with company standards and policies regarding quality assurance.</li>
+                            <li>Technologies: Java 8, Java 17, Spring Boot, Spring Batch, PostgreSQL, Angular, Maven,
+                                Jenkins CI/CD, Terraform.</li>
                         </ul>
-                    </div>
-
-                    <div class="ml-3">
-                        <label class="body-sub-header">Technologies used:</label>
-
-                        <label class="highlight-outline">Java 8</label>
-                        <label class="highlight-outline">Java 17</label>
-                        <label class="highlight-outline">Spring Boot</label>
-                        <label class="highlight-outline">Spring Batch</label>
-                        <label class="highlight-outline">PostgreSQL</label>
-                        <label class="highlight-outline">Angular</label>
-                        <label class="highlight-outline">Maven</label>
-                        <label class="highlight-outline">Jenkins CI/CD</label>
-                        <label class="highlight-outline">Terraform</label>
-                    </div>
-
-                    <div class="mt-2 container-fluid">
-                        <div class="row">
-                            <div class="col-6">
-                                <label class="body-sub-header">Features:</label>
-                                <ul>
-                                    <li>Developed batch job application for Fund Rating.</li>
-                                    <li>Developed producer API application for Fund Rating.</li>
-                                    <li>Process Service Request based on Work Item ID.</li>
-                                    <li>Validation and Approval of Account Details.</li>
-                                    <li>Validation of data across downstream APIs.</li>
-                                </ul>
-                            </div>
-
-                            <div class="col-6">
-                                <label class="body-sub-header">Contribution and Responsibilities:</label>
-                                <ul>
-                                    <li>Develop and maintain validation functions.</li>
-                                    <li>Experience developing Restful API.</li>
-                                    <li>Unit test using Junit.</li>
-                                    <li>Code-Reviews, Optimization and Product Support.</li>
-                                </ul>
-                            </div>
-                        </div>
                     </div>
 
                     <div>
-                        <label class="body-sub-header">Wissen Technology (Client- Morgan Stanley) - Projects:</label>
+                        <label class="body-sub-header no-padding">Senior Software Engineer</label>
+                        <label class="label-header no-padding">Wissen Technology | Morgan Stanley (Contractor),
+                            Bengaluru, Karnataka</label>
+                        <label class="date no-padding">Nov 2020 - Dec 2022</label>
                         <ul>
-                            <li>
-                                <div class="mt-2">
-                                    <label class="bold">EET (Equity Entitlement Tool)</label><br>
-                                    <label>Management of User Profile based on Roles</label><br>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="mt-2">
-                                    <label class="bold">AMT (Account Management Tool)</label><br>
-                                    <label>Management of Clients</label><br>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="mt-2">
-                                    <label class="bold">IED Coverage</label><br>
-                                    <label>Manages Client to User mapping</label><br>
-                                </div>
-                            </li>
+                            <li>Developed and implemented software solutions for various business needs using Java,
+                                Spring Boot, and DevOps technologies.</li>
+                            <li>Enhanced user profile management, resulting in a 40% efficiency increase.</li>
+                            <li>Managed client-to-user mapping effectively.</li>
+                            <li>Provided technical guidance to junior developers on best practices in software
+                                engineering.</li>
+                            <li>Collaborated with other developers to integrate multiple systems through APIs.</li>
+                            <li>Maintained databases by writing complex SQL queries and stored procedures.</li>
+                            <li>Technologies: Java 8, Angular, Spring Boot, JDBC, IBM DB2, Mongo DB, Jenkins CI/CD,
+                                Gradle.</li>
                         </ul>
                     </div>
 
-                    <div class="ml-3">
-                        <label class="body-sub-header">Technologies used:</label>
-
-                        <label class="highlight-outline">Java 8</label>
-                        <label class="highlight-outline">Angular</label>
-                        <label class="highlight-outline">Spring Boot</label>
-                        <label class="highlight-outline">JDBC</label>
-                        <label class="highlight-outline">IBM DB2</label>
-                        <label class="highlight-outline">Mongo DB</label>
-                        <label class="highlight-outline">Jenkins CI/CD</label>
-                        <label class="highlight-outline">Gradle</label>
-                    </div>
-
-                    <div class="mt-2 container-fluid">
-                        <div class="row">
-                            <div class="col-6">
-                                <label class="body-sub-header">Features:</label>
-                                <ul>
-                                    <li>Client Master Data Management.</li>
-                                    <li>User Profile Master Data Management.</li>
-                                    <li>User Profile and Client Mapping Track and Management.</li>
-                                    <li>Coverage request, track and approvals.</li>
-                                    <li>Real-Time Analytical Reports like iTrak, Seismic.</li>
-                                </ul>
-                            </div>
-
-                            <div class="col-6">
-                                <label class="body-sub-header">Contribution and Responsibilities:</label>
-                                <ul>
-                                    <li>Design, develop and maintain multiple master features.</li>
-                                    <li>Experience developing Restful API and Client.</li>
-                                    <li>Requirement analysis, design, develop and unit test using Junit.</li>
-                                    <li>Code-Reviews, Optimization and Product Support.</li>
-                                </ul>
-                            </div>
-                        </div>
+                    <!-- <div>
+                        <label class="body-sub-header no-padding">Senior Software Engineer</label>
+                        <label class="label-header no-padding">Wissen Technology | Morgan Stanley (Contractor), Bengaluru, Karnataka</label>
+                        <label class="date no-padding">Apr 2022 - Dec 2022</label>
+                        <ul>
+                            <li>Enhanced user profile management, resulting in a 40% efficiency increase.</li>
+                            <li>Managed client-to-user mapping effectively.</li>
+                            <li>Provided technical guidance to junior developers on best practices in software
+                                engineering.</li>
+                            <li>Developed and implemented software solutions for various business needs using Java,
+                                Spring Boot, and DevOps technologies.</li>
+                        </ul>
                     </div>
 
                     <div>
-                        <label class="body-sub-header">Ubq Technologies Pvt. Ltd. - Projects:</label>
+                        <label class="body-sub-header no-padding">Software Engineer</label>
+                        <label class="label-header no-padding">Wissen Technology | Morgan Stanley (Contractor), Bengaluru, Karnataka</label>
+                        <label class="date no-padding">Nov 2020 - Apr 2022</label>
                         <ul>
-                            <li>
-                                <div class="mt-2">
-                                    <label class="bold">uSCM (ubq Supply Chain Management)</label><br>
-                                    <label>Web App - FMCG(Fast Moving Consumer Goods) Solution for
-                                        Distributors</label><br>
-                                    <label>Clients - Britannia Industries, Mother Dairy, PZ Cussons, Kohler India
-                                        Corporation Pvt. Ltd., Renfro India Pvt. Ltd.</label><br>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="mt-2">
-                                    <label class="bold">Promotions and Claims</label><br>
-                                    <label>Web App - FMCG (Fast Moving Consumer Goods) Solution for
-                                        Corporate</label><br>
-                                    <label>Clients - Britannia Industries, Mother Dairy, PZ Cussons, Kohler India
-                                        Corporation Pvt. Ltd., Renfro India Pvt. Ltd.</label><br>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="mt-2">
-                                    <label class="bold">Primary Outreach - TAS(Trade Automation Solution)</label><br>
-                                    <label>Web, Android, iOS App - Telecom & E-Commerce Project</label><br>
-                                    <label>Clients - MTN Group, Ooredoo Myanmar, Britannia Industries, Mother Dairy,
-                                        PZ Cussons, Kohler India Corporation Pvt. Ltd., Renfro India Pvt. Ltd.
-                                    </label><br>
-                                </div>
-                            </li>
+                            <li>Developed and implemented software solutions utilizing Java, Spring Boot, Angular, and
+                                SQL.</li>
+                            <li>Collaborated with other developers to integrate multiple systems through APIs.</li>
+                            <li>Maintained databases by writing complex SQL queries and stored procedures.</li>
+                        </ul>
+                    </div> -->
+
+                    <div>
+                        <label class="body-sub-header no-padding">Member of Technical Team II</label>
+                        <label class="label-header no-padding">Ubq Technologies Pvt. Ltd., Bengaluru, Karnataka</label>
+                        <label class="date no-padding">Sep 2017 – Nov 2022</label>
+                        <ul>
+                            <li>Developed web app for FMCG solutions, boosting client engagement by 15%.</li>
+                            <li>Implemented web, Android, and iOS applications for telecom and e-commerce projects.</li>
+                            <li>Managed promotional activities and claims efficiently.</li>
+                            <li>Technologies: Java, Android, Angular, Spring Boot, JDBC, J2EE, JavaScript, MySQL DB,
+                                Oracle DB.</li>
                         </ul>
                     </div>
-
-                    <div class="ml-3">
-                        <label class="body-sub-header">Technologies used:</label>
-
-                        <label class="highlight-outline">Java</label>
-                        <label class="highlight-outline">Android</label>
-                        <label class="highlight-outline">Angular</label>
-                        <label class="highlight-outline">Spring Boot</label>
-                        <label class="highlight-outline">JDBC</label>
-                        <label class="highlight-outline">J2EE</label>
-                        <label class="highlight-outline">JavaScript</label>
-                        <label class="highlight-outline">MySQL DB</label>
-                        <label class="highlight-outline">Oracle DB</label>
-                    </div>
-
-                    <div class="mt-2 container-fluid">
-                        <div class="row">
-                            <div class="col-6">
-                                <label class="body-sub-header">Features:</label>
-                                <ul>
-                                    <li>Client Master Data Management and Assessment.</li>
-                                    <li>Inventory and Sales Transaction Track and Management.</li>
-                                    <li>Promotions and Claims Management.</li>
-                                    <li>Real-Time Analytical Reports.</li>
-                                    <li>Gamification and Performance Incentive Management to drive productivity.</li>
-                                </ul>
-                            </div>
-
-                            <div class="col-6">
-                                <label class="body-sub-header">Contribution and Responsibilities:</label>
-                                <ul>
-                                    <li>Design, develop and maintain multiple master features in Web and Mobile App.
-                                    </li>
-                                    <li>Experience developing Restful API and XML-based web services interfaces.</li>
-                                    <li>Requirement analysis, preparing unit test cases and task assignments.</li>
-                                    <li>Code-Reviews, Optimization and Product Support.</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
                 </div>
 
-                <div class="container-fluid">
-                    <div class="row">
-                        <!-- Education -->
-                        <div class="col-6">
-                            <label class="body-header">Education</label>
-                            <div class="separator"></div>
+                <!-- Education -->
+                <div>
+                    <label class="body-header">Education</label>
+                    <div class="separator"></div>
+                    <ul class="no-bullets">
+                        <li>Bachelor of Engineering in Mechanical Engineering</li>
+                        <li>Jaya Engineering College, Chennai, Tamil Nadu</li>
+                        <li class="date">Sep 2012 - May 2016</li>
+                    </ul>
+                </div><br>
 
-                            <div class="container-fluid">
-                                <div class="row">
-                                    <div class="col-3">
-                                        <label class="body-sub-header">Sep 2012 - May 2016</label>
-                                    </div>
-                                    <div class="col-9">
-                                        <label class="body-sub-header">B.E. (Mechanical Engineering)</label>
-                                        <label>Jaya Engineering College, Chennai, Tamil Nadu.</label>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                <!-- Awards and Acheivements -->
+                <div>
+                    <label class="body-header">Awards and Acheivements</label>
+                    <div class="separator"></div>
+                    <ul>
+                        <li>On The Spot Award | Fidelity Investments | <span class="date">Dec 2023</span></li>
+                        <li>Impact Award | Morgan Stanley | <span class="date">Apr 2022</span></li>
+                        <li>Innovative Project Award | <span class="date">Feb 2020</span> | Ubq Technologies Pvt. Ltd.
+                        </li>
+                        <li>Most Creative Member of the Team Award | <span class="date">May 2018</span> | Ubq
+                            Technologies Pvt. Ltd.</li>
+                    </ul>
+                </div>
 
-                        <!-- Awards and Acheivements -->
-                        <div class="col-6">
-                            <label class="body-header">Awards and Acheivements</label>
-                            <div class="separator"></div>
-
-                            <div class="container-fluid">
-                                <div class="row">
-                                    <div class="col-3">
-                                        <label class="body-sub-header">Dec 2023</label>
-                                    </div>
-                                    <div class="col-9">
-                                        <label class="body-sub-header">On The Spot Award</label>
-                                        <label>Honor Issued by Chapter Area Leader, Fidelity Investments</label>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-3">
-                                        <label class="body-sub-header">Feb 2020</label>
-                                    </div>
-                                    <div class="col-9">
-                                        <label class="body-sub-header">Innovative Project Award</label>
-                                        <label>Honor Issued by Anjan Basu, Director & CEO, Ubq Technologies Pvt.
-                                            Ltd.</label>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-3">
-                                        <label class="body-sub-header">May 2018</label>
-                                    </div>
-                                    <div class="col-9">
-                                        <label class="body-sub-header">Most Creative Member of the Team Award</label>
-                                        <label> Honor Issued by Anjan Basu, Director & CEO, Ubq Technologies Pvt.
-                                            Ltd.</label>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <!-- Certifications -->
+                <div>
+                    <label class="body-header">Certifications</label>
+                    <div class="separator"></div>
+                    <ul>
+                        <li><a class="hyperlink" href="https://www.hackerrank.com/certificates/1c351900d0a8"
+                                target="_blank" rel="noopener noreferrer">Java | HackerRank</a></li>
+                        <li><a class="hyperlink" href="https://www.hackerrank.com/certificates/6f2f07a8500d"
+                                target="_blank" rel="noopener noreferrer">SQL | HackerRank</a></li>
+                        <li><a class="hyperlink" href="https://www.hackerrank.com/certificates/95931ab062b7"
+                                target="_blank" rel="noopener noreferrer">Angular | HackerRank</a></li>
+                    </ul>
                 </div>
             </div>
 
-            <div class="col-3 right-body">
-                <!-- Contact -->
-                <div>
-                    <label class="body-header">Contact</label>
-                    <div class="separator"></div>
-
-                    <div class="mt-2">
-                        <i class="fa fa-map-marker icon"></i>
-                        <label>Bengaluru, Karnataka</label>
-                    </div>
-
-                    <div class="mt-2">
-                        <i class="fa fa-phone icon"></i>
-                        <label>+91 8148574564</label>
-                    </div>
-
-                    <div class="mt-2">
-                        <i class="fa fa-envelope icon"></i>
-                        <label>naidusanjevi@gmail.com</label>
-                    </div>
-
-                    <div class="mt-2">
-                        <i class="fa fa-linkedin-square icon" aria-hidden="true"></i>
-                        <a class="hyperlink" href="https://www.linkedin.com/in/sanjevi-naidu/" target="_blank"
-                            rel="noopener noreferrer">
-                            <label>linkedin.com/in/sanjevi-naidu</label>
-                        </a>
-                        <!-- <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="dark"
-                            data-type="HORIZONTAL" data-vanity="sanjevi-naidu-41505aa5" data-version="v1">
-                        </div> -->
-                    </div>
-
-                </div>
-
+            <div class="col right-body">
                 <!-- Skills -->
                 <div>
                     <label class="body-header">Skills</label>
@@ -538,35 +355,38 @@
                     </div>
 
                     <div class=" mt-2">
-                        <label class="body-sub-header">Other:</label>
-                        <div>
-                            <label class="highlight-filled">DS</label>
-                            <label class="highlight-filled">Algorithms</label>
-                            <label class="highlight-filled">Object Oriented Design</label>
-                            <label class="highlight-filled">Functional Interface</label>
-                            <label class="highlight-filled">Jenkins CI/CD</label>
-                            <label class="highlight-filled">Terraform</label>
-                            <label class="highlight-filled">System Design</label>
-                            <label class="highlight-filled">Microservices</label>
-                        </div>
-                    </div>
-
-                    <div class=" mt-2">
                         <label class="body-sub-header">Frameworks:</label>
                         <div>
-                            <label class="highlight-filled">Spring Boot</label>
-                            <label class="highlight-filled">Spring Batch</label>
-                            <label class="highlight-filled">Hibernate</label>
                             <label class="highlight-filled">Angular</label>
+                            <label class="highlight-filled">Spring Boot</label>
+                            <label class="highlight-filled">Spring Security</label>
+                            <label class="highlight-filled">Spring Batch</label>
+                            <label class="highlight-filled">JPA</label>
+                            <label class="highlight-filled">Hibernate</label>
+                            <label class="highlight-filled">JUnit</label>
+                            <label class="highlight-filled">Mockito</label>
                             <label class="highlight-filled">Android</label>
                         </div>
                     </div>
 
                     <div class=" mt-2">
-                        <label class="body-sub-header">Operating Systems:</label>
+                        <label class="body-sub-header">DevOps:</label>
                         <div>
-                            <label class="highlight-filled">Windows</label>
-                            <label class="highlight-filled">Linux</label>
+                            <label class="highlight-filled">Jenkins</label>
+                            <label class="highlight-filled">Docker</label>
+                            <label class="highlight-filled">Terraform</label>
+                            <label class="highlight-filled">AWS</label>
+                        </div>
+                    </div>
+
+                    <div class=" mt-2">
+                        <label class="body-sub-header">Databases:</label>
+                        <div>
+                            <label class="highlight-filled">PostgreSQL</label>
+                            <label class="highlight-filled">IBM DB2</label>
+                            <label class="highlight-filled">Oracle DB</label>
+                            <label class="highlight-filled">MySQL</label>
+                            <label class="highlight-filled">Mongo DB</label>
                         </div>
                     </div>
 
@@ -582,45 +402,42 @@
                         <label class="body-sub-header">Version Management:</label>
                         <div>
                             <label class="highlight-filled">Git</label>
-                            <label class="highlight-filled">Bitbucket</label>
-                            <label class="highlight-filled">Tortoise CVS</label>
                         </div>
                     </div>
 
                     <div class=" mt-2">
-                        <label class="body-sub-header">Databases:</label>
+                        <label class="body-sub-header">Operating Systems:</label>
                         <div>
-                            <label class="highlight-filled">PostgreSQL</label>
-                            <label class="highlight-filled">IBM DB2</label>
-                            <label class="highlight-filled">Oracle DB</label>
-                            <label class="highlight-filled">MySQL</label>
-                            <label class="highlight-filled">Mongo DB</label>
+                            <label class="highlight-filled">Windows</label>
+                            <label class="highlight-filled">Linux</label>
                         </div>
                     </div>
-                </div>
 
-                <!-- Languages -->
-                <div>
-                    <label class="body-header">Languages</label>
-                    <div class="separator"></div>
-
-                    <div>
-                        <label class="highlight-outline">English</label>
-                        <label class="highlight-outline">Hindi</label>
-                        <label class="highlight-outline">Tamil</label>
-                        <label class="highlight-outline">Telugu</label>
+                    <div class=" mt-2">
+                        <label class="body-sub-header">Other:</label>
+                        <div>
+                            <label class="highlight-filled">DS</label>
+                            <label class="highlight-filled">Algorithms</label>
+                            <label class="highlight-filled">Problem-Solving</label>
+                            <label class="highlight-filled">Microservices</label>
+                            <label class="highlight-filled">System Design</label>
+                            <label class="highlight-filled">OOP</label>
+                            <label class="highlight-filled">Functional Interface</label>
+                            <label class="highlight-filled">Coaching and Mentoring</label>
+                            <label class="highlight-filled">SDLC</label>
+                            <label class="highlight-filled">Requirements Analysis</label>
+                        </div>
                     </div>
-                </div>
 
-                <!-- Hobbies -->
-                <div>
-                    <label class="body-header">Hobbies</label>
-                    <div class="separator"></div>
-
-                    <div>
-                        <label class="highlight-outline">Cooking</label>
-                        <label class="highlight-outline">Sketching</label>
+                    <div class=" mt-2">
+                        <label class="body-sub-header">Soft Skills:</label>
+                        <div>
+                            <label class="highlight-filled">Teamwork</label>
+                            <label class="highlight-filled">Communication</label>
+                            <label class="highlight-filled">Leadership</label>
+                        </div>
                     </div>
+
                 </div>
             </div>
         </div>
