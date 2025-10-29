@@ -1,0 +1,174 @@
+{
+    "name": "Sanjevi Naidu",
+    "title": "Senior Full Stack Engineer",
+    "contact": {
+        "linkedin": "Sanjevi Naidu",
+        "leetcode": "LeetCode Profile",
+        "hackerank": "Hackerank Profile",
+        "email": "naidusanjevi@gmail.com",
+        "mobile": "+918148574564"
+    },
+    "summary": "Accomplished Senior Full Stack Engineer with over 7 years of experience in software development and DevOps. Proven expertise in Java, Spring Boot, Angular, and various database technologies. Seeking to leverage my skills and expertise to contribute to high-impact projects in a dynamic organization, driving innovation and optimizing performance.",
+    "professional_experience": [
+        {
+            "title": "Associate Technical Delivery Manager",
+            "employer": "Accolite Digital Pvt. Ltd. | Fidelity Investments (Contractor)",
+            "location": "Bengaluru, Karnataka",
+            "period": "Dec 2022 – Present",
+            "project": "Integrated Portfolio Construction Tool",
+            "technologies": [
+                "Java 17",
+                "Spring Boot 3",
+                "Spring Batch 5",
+                "JPA",
+                "Hibernate",
+                "PostgreSQL 8",
+                "Angular 16",
+                "Maven",
+                "Docker",
+                "Jenkins CI/CD",
+                "Terraform",
+                "AWS"
+            ],
+            "highlights": [
+                "Developed batch job and producer API applications for Fund Rating, improving processing efficiency by 30%.",
+                "Automated the account approval process, increasing approval accuracy by 25%.",
+                "Automated service request processing, reducing manual intervention by 90%.",
+                "Collaborated with developers, testers, and business analysts to resolve technical issues quickly.",
+                "Ensured compliance with company standards and policies regarding quality assurance."
+            ]
+        },
+        {
+            "title": "Senior Software Engineer",
+            "employer": "Wissen Technology | Morgan Stanley (Contractor)",
+            "location": "Bengaluru, Karnataka",
+            "period": "Nov 2020 - Dec 2022",
+            "project": "Equity Entitlement Tool",
+            "technologies": [
+                "Java 8",
+                "Angular 12",
+                "Spring Boot 2.5",
+                "JDBC",
+                "JPA",
+                "Hibernate",
+                "IBM DB2",
+                "Mongo DB",
+                "Docker",
+                "Jenkins CI/CD",
+                "Gradle",
+                "Linux",
+                "Terraform",
+                "AWS"
+            ],
+            "highlights": [
+                "Developed and implemented software solutions for various business needs using Java, Spring Boot, and DevOps technologies.",
+                "Enhanced user profile management, resulting in a 40% efficiency increase.",
+                "Managed client-to-user mapping effectively.",
+                "Provided technical guidance to junior developers on best practices in software engineering.",
+                "Collaborated with other developers to integrate multiple systems through APIs.",
+                "Maintained databases by writing complex SQL queries and stored procedures."
+            ]
+        },
+        {
+            "title": "Member of Technical Team II",
+            "employer": "Ubq Technologies Pvt. Ltd.",
+            "location": "Bengaluru, Karnataka",
+            "period": "Sep 2017 – Nov 2020",
+            "project": "Primary Outreach - TAS(Trade Automation Solution)",
+            "technologies": [
+                "Java",
+                "Android",
+                "Angular",
+                "Spring Boot",
+                "JDBC",
+                "J2EE",
+                "JavaScript",
+                "JSP",
+                "MySQL DB",
+                "Oracle DB"
+            ],
+            "highlights": [
+                "Developed web and mobile apps for FMCG solutions, boosting client engagement by 15%.",
+                "Implemented web, Android, and iOS applications for telecom and e-commerce projects.",
+                "Managed promotional activities and claims efficiently.",
+                "Implemented smart select in the Salesman App which increased client sales by 50%."
+            ]
+        }
+    ],
+    "awards_and_achievements": [
+        "On The Spot Award - Fidelity Investments, Dec 2023",
+        "Impact Award - Morgan Stanley, Apr 2022",
+        "Innovative Project Award - Ubq Technologies Pvt. Ltd., Feb 2020",
+        "Most Creative Member of the Team Award - Ubq Technologies Pvt. Ltd., May 2018"
+    ],
+    "education": {
+        "degree": "Bachelor of Engineering in Mechanical Engineering",
+        "college": "Jaya Engineering College, Chennai, Tamil Nadu",
+        "period": "Sep 2012 - May 2016"
+    },
+    "certifications": [
+        "Java - HackerRank",
+        "SQL - HackerRank",
+        "Angular - HackerRank"
+    ],
+    "skills": {
+        "languages": [
+            "Java",
+            "SQL",
+            "JavaScript",
+            "TypeScript"
+        ],
+        "frameworks": [
+            "Angular",
+            "Spring Boot",
+            "Spring Security",
+            "Spring Batch",
+            "JPA",
+            "Hibernate",
+            "JUnit",
+            "Mockito",
+            "Android"
+        ],
+        "devops": [
+            "Jenkins",
+            "Docker",
+            "Terraform",
+            "AWS"
+        ],
+        "databases": [
+            "PostgreSQL",
+            "IBM DB2",
+            "Oracle DB",
+            "MySQL",
+            "Mongo DB"
+        ],
+        "build_management": [
+            "Gradle",
+            "Maven"
+        ],
+        "version_management": [
+            "Git"
+        ],
+        "operating_systems": [
+            "Windows",
+            "Linux"
+        ],
+        "other": [
+            "DS",
+            "Algorithms",
+            "Problem-Solving",
+            "Microservices",
+            "System Design",
+            "OOP",
+            "Functional Interface",
+            "Coaching and Mentoring",
+            "SDLC",
+            "Requirements Analysis"
+        ],
+        "soft_skills": [
+            "Teamwork",
+            "Communication",
+            "Leadership"
+        ]
+    }
+}
