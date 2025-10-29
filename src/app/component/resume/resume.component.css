@@ -1,0 +1,108 @@
+.resume {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    color: #000;
+    background: #fff;
+    max-width: max-content;
+    margin: 30px 0;
+    padding: 50px;
+}
+
+.name {
+    font-size: 2.3rem;
+    text-align: center;
+    margin: 12px 0 12px 0;
+    letter-spacing: 1px;
+}
+
+.title {
+    font-size: 1.3em !important;
+    font-weight: normal;
+    text-align: center;
+    margin: 24px 0 24px 0;
+    letter-spacing: 1px;
+}
+
+.resume .contact-row {
+    text-align: center;
+    font-size: 1.08rem;
+    margin-bottom: 24px;
+}
+
+.resume .contact-row span {
+    margin-right: 18px;
+}
+
+.resume .icon {
+    margin: 0 0.2em 0 3em;
+    font-size: 1.2em;
+}
+
+.body-title {
+    border-bottom: 2px solid #dadada;
+    font-size: 1.2rem;
+    margin: 2rem 0 1rem 0;
+    letter-spacing: .02em;
+    padding-bottom: 0.5rem;
+}
+
+.summary {
+    margin-bottom: 1.4rem;
+    font-size: 1.04rem;
+}
+
+.experience-block {
+    margin-bottom: 1.3rem;
+}
+
+.exp-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: .2rem;
+    font-size: 1.05rem;
+}
+
+.exp-meta {
+    text-align: left;
+    flex: 1;
+    font-weight: bold;
+}
+
+.exp-period {
+    text-align: right;
+    white-space: nowrap;
+    min-width: 100px;
+    margin-left: 16px;
+    color: #7a7a7a;
+}
+
+.custom-bullet {
+    padding-left: 0;
+}
+
+.experience-block ul {
+    margin: 0.1rem 0 0.6rem 1rem;
+    line-height: 1.6;
+}
+
+.skills-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    font-size: 1.01rem;
+}
+
+.skills-table td {
+    padding: 6px 16px 6px 0;
+    border: none;
+}
+
+.skill-category {
+    font-weight: bold;
+    width: 300px;
+    color: #000;
+}
+
+.skill-detail {
+    color: #000;
+}

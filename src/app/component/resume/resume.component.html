@@ -1,0 +1,40 @@
+<div class="resume">
+    <h1 class="name">{{ resume.name }}</h1>
+    <h3 class="title">{{ resume.title }}</h3>
+    <div class="contact-row">
+        <a [href]="resume.profile.linkedin.link" target="_blank"
+            style="text-decoration: none; color: rgb(0, 68, 255); cursor: pointer;">
+            <span><i class="fa fa-linkedin icon" aria-hidden="true"></i> {{ resume.profile.linkedin.title }}</span>
+        </a>
+        <!-- <span><i class="fa fa-code icon" aria-hidden="true"></i> {{ resume.profile.leetcode }}</span> -->
+        <!-- <span><i class="fa fa-code icon" aria-hidden="true"></i> {{ resume.profile.hackerank }}</span> -->
+        <span><i class="fa fa-envelope icon" aria-hidden="true"></i> {{ resume.contact.email }}</span>
+        <span><i class="fa fa-phone icon" aria-hidden="true"></i> {{ resume.contact.mobile }}</span>
+    </div>
+
+    <h2 class="body-title">Summary</h2>
+    <p class="summary">{{ resume.summary }}</p>
+
+    <h2 class="body-title">Work Experience</h2>
+    <div class="experience-block" *ngFor="let exp of resume.professionalExperience">
+        <div class="exp-header">
+            <div class="exp-meta">
+                <span class="exp-title">{{ exp.title }}</span>,
+                <span class="exp-company">{{ exp.company }}</span>,
+                <span class="exp-location">{{ exp.location }}</span>
+            </div>
+            <span class="exp-period">{{ exp.period }}</span>
+        </div>
+        <ul class="custom-bullet">
+            <li *ngFor="let bullet of exp.highlights">{{ bullet }}</li>
+        </ul>
+    </div>
+
+    <h2 class="body-title">Skills</h2>
+    <table class="skills-table">
+        <tr *ngFor="let skill of resume.skills">
+            <td class="skill-category">{{ skill.category }}</td>
+            <td class="skill-detail">{{ skill.detail }}</td>
+        </tr>
+    </table>
+</div>

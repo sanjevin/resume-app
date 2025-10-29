@@ -1,0 +1,122 @@
+{
+    "name": "Sanjevi Naidu",
+    "title": "Full Stack Engineer",
+    "contact": {
+        "email": "naidusanjevi@gmail.com",
+        "mobile": "+918148574564"
+    },
+    "profile": {
+        "linkedin": {
+            "title": "Sanjevi Naidu",
+            "link": "https://www.linkedin.com/in/sanjevi-naidu/"
+        },
+        "leetcode": {
+            "title": "Sanjevi Naidu",
+            "link": "https://www.linkedin.com/in/sanjevi-naidu/"
+        },
+        "hackerank": {
+            "title": "Sanjevi Naidu",
+            "link": "https://www.linkedin.com/in/sanjevi-naidu/"
+        }
+    },
+    "summary": "Seasoned Full Stack Engineer with 8+ years of delivering high-performance software solutions. Expertise in Java, Spring Boot, Angular, and modern databases, with a proven track record of enhancing system efficiency and driving innovation. Adept at leading teams, collaborating cross-functionally, and solving complex problems creatively. Passionate about building scalable architecture and fostering technological growth. Committed to continuous improvement and excellence in dynamic environments.",
+    "professionalExperience": [
+        {
+            "title": "Software Developer 3",
+            "company": "Oracle India Pvt. Ltd.",
+            "location": "Bengaluru, Karnataka",
+            "period": "Oct 2024 – Present",
+            "project": "ClinicalOne",
+            "highlights": [
+                "Reduced API response time by 25% by grouping dependent functionalities and running independent groups in parallel.",
+                "Converted data feed from Excel to HAR file for functional automation testing, reducing manual intervention by 90%.",
+                "Collaborated with developers, testers, and business analysts to quickly resolve technical issues.",
+                "Monitored and ensured alignment with company quality assurance policies and standards."
+            ]
+        },
+        {
+            "title": "Associate Technical Delivery Manager",
+            "company": "Accolite Digital Pvt. Ltd. | Fidelity Investments (Contractor)",
+            "location": "Bengaluru, Karnataka",
+            "period": "Dec 2022 – Oct 2024",
+            "project": "Integrated Portfolio Construction Tool",
+            "highlights": [
+                "Developed batch job and producer API applications for Fund Rating, improving processing efficiency by 30%.",
+                "Automated the account approval process, increasing approval accuracy by 25%.",
+                "Automated service request processing, reducing manual intervention by 90%.",
+                "Collaborated with developers, testers, and business analysts to resolve technical issues quickly.",
+                "Ensured compliance with company standards and policies regarding quality assurance."
+            ]
+        },
+        {
+            "title": "Senior Software Engineer",
+            "company": "Wissen Technology | Morgan Stanley (Contractor)",
+            "location": "Bengaluru, Karnataka",
+            "period": "Nov 2020 - Dec 2022",
+            "project": "Equity Entitlement Tool",
+            "highlights": [
+                "Developed and implemented software solutions for various business needs using Java, Spring Boot, and DevOps technologies.",
+                "Enhanced user profile management, resulting in a 40% efficiency increase.",
+                "Managed client-to-user mapping effectively.",
+                "Provided technical guidance to junior developers on best practices in software engineering.",
+                "Collaborated with other developers to integrate multiple systems through APIs.",
+                "Maintained databases by writing complex SQL queries and stored procedures."
+            ]
+        },
+        {
+            "title": "Member of Technical Team II",
+            "company": "Ubq Technologies Pvt. Ltd.",
+            "location": "Bengaluru, Karnataka",
+            "period": "Sep 2017 – Nov 2020",
+            "project": "Primary Outreach - TAS(Trade Automation Solution)",
+            "highlights": [
+                "Developed web and mobile apps for FMCG solutions, boosting client engagement by 15%.",
+                "Implemented web, Android, and iOS applications for telecom and e-commerce projects.",
+                "Managed promotional activities and claims efficiently.",
+                "Implemented smart select in the Salesman App which increased client sales by 50%."
+            ]
+        }
+    ],
+    "awardsAndAchievements": [
+        "On The Spot Award - Fidelity Investments, Dec 2023",
+        "Impact Award - Morgan Stanley, Apr 2022",
+        "Innovative Project Award - Ubq Technologies Pvt. Ltd., Feb 2020",
+        "Most Creative Member of the Team Award - Ubq Technologies Pvt. Ltd., May 2018"
+    ],
+    "education": {
+        "degree": "Bachelor of Engineering in Mechanical Engineering",
+        "college": "Jaya Engineering College, Chennai, Tamil Nadu",
+        "period": "Sep 2012 - May 2016"
+    },
+    "certifications": [
+        "Java - HackerRank",
+        "SQL - HackerRank",
+        "Angular - HackerRank"
+    ],
+    "skills": [
+        {
+            "category": "Programming Languages",
+            "detail": "Java(Proficient), TypeScript(Intermediate), JavaScript(Beginner)"
+        },
+        {
+            "category": "Database and Languages",
+            "detail": "SQL, PostgreSQL, IBM DB2, Oracle DB, MySQL, Mongo DB"
+        },
+        {
+            "category": "Frameworks and Tools",
+            "detail": "Angular, Spring Boot, Spring Security, Spring Batch, JPA, Hibernate, JUnit, Mockito, Android, Docker, Terraform, Kafka, Prometheus, Grafana"
+        },
+        {
+            "category": "Cloud Platforms",
+            "detail": "AWS (Lambda, EC2, S3, RDS, ElastiCache, Load Balancer, API Gateway)"
+        },
+        {
+            "category": "Version Control Tools and IDE",
+            "detail": "Git, Gitlab, IntelliJ, VS Code"
+        },
+        {
+            "category": "Soft Skills",
+            "detail": "Leadership, Collaboration, Planning, Teamwork, Time Management, Problem-Solving"
+        }
+    ]
+}
