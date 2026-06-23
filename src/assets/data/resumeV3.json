@@ -1,6 +1,6 @@
 {
     "name": "Sanjevi Naidu",
-    "title": "Full Stack Engineer | AWS Certified Developer",
+    "title": "Full Stack Engineer",
     "contact": {
         "email": "naidusanjevi@gmail.com",
         "mobile": "+918148574564"
@@ -19,10 +19,10 @@
             "link": "https://www.linkedin.com/in/sanjevi-naidu/"
         }
     },
-    "summary": "Full Stack Engineer with 9 years of experience building scalable, high-performance applications using Java, Spring Boot, Angular, and SQL. I possess strong expertise in microservices architecture, REST API development, and distributed systems, with a proven ability to optimize backend performance and build dynamic frontend applications.",
+    "summary": "Full Stack Engineer with ~9 years of experience building scalable, high-performance applications using Java, Spring Boot, Angular, and SQL. Strong expertise in microservices architecture, REST API development, and distributed systems. Proven ability to optimize backend performance and build dynamic frontend applications. Currently exploring Generative AI concepts, including LLMs and retrieval-based systems, through hands-on learning and personal projects.",
     "professionalExperience": [
         {
-            "title": "Senior Application Software Engineer",
+            "title": "Software Developer 3",
             "company": "Oracle India Pvt. Ltd.",
             "location": "Bengaluru, Karnataka",
             "period": "Oct 2024 – Present",
@@ -45,8 +45,6 @@
                 "Developed scalable batch processing systems and REST APIs using Spring Boot within a microservices architecture, improving efficiency by 30%.",
                 "Automated account approval workflows, increasing accuracy by 25% and reducing manual intervention significantly.",
                 "Designed backend services for service request automation, achieving 90% reduction in manual processing.",
-                "Led the development of intuitive Angular-based administrative dashboards, enabling operations teams to monitor and manage automated workflows in real-time.",
-                "Built responsive front-end components using RxJS and TypeScript, ensuring seamless, reactive state management across complex financial workflows.",
                 "Collaborated with cross-functional teams to troubleshoot and resolve production issues in high-impact financial systems.",
                 "Ensured adherence to coding standards, CI/CD pipelines, and quality assurance practices.",
                 "Designed scalable microservices architecture handling high-concurrency workloads in distributed environments."
@@ -61,10 +59,9 @@
             "highlights": [
                 "Developed and maintained microservices-based applications using Java, Spring Boot, and REST APIs.",
                 "Improved user profile management systems, increasing operational efficiency by 40%.",
-                "Designed and implemented secure, modular Angular views for user profile configuration, enhancing user onboarding and data accuracy.",
                 "Designed and optimized complex SQL queries and stored procedures for high-performance database operations.",
                 "Integrated multiple enterprise systems through APIs in a distributed architecture.",
-                "Mentored junior developers on full-stack best practices, enforcing strict standards in both Java and Angular development."
+                "Mentored junior developers and enforced best practices in software design and development."
             ]
         },
         {
@@ -76,10 +73,9 @@
             "highlights": [
                 "Developed full-stack applications including Angular-based web apps and mobile solutions for FMCG and telecom domains.",
                 "Built dynamic Angular applications using JSON-driven configurations for flexible UI rendering.",
-                "Enhanced client engagement by 15% through scalable, responsive, and performance-optimized Angular application design.",
+                "Enhanced client engagement by 15% through scalable and responsive application design.",
                 "Implemented sales optimization features increasing client revenue by 50%.",
-                "Leveraged Angular's powerful component architecture to build reusable UI widgets, drastically reducing front-end development time for multi-platform applications.",
-                "Worked across Springboot, Angular, Android, and iOS platforms delivering end-to-end solutions."
+                "Worked across web, Android, and iOS platforms delivering end-to-end solutions."
             ]
         }
     ],
@@ -94,6 +90,13 @@
         "college": "Jaya Engineering College, Chennai, Tamil Nadu",
         "period": "Sep 2012 - May 2016"
     },
+    "certifications": [
+        "Java - HackerRank",
+        "SQL - HackerRank",
+        "Angular - HackerRank",
+        "AWS Certified Developer Associate (Planned)",
+        "AWS Certified AI Practitioner (Planned)"
+    ],
     "skills": [
         {
             "category": "Programming Languages",
@@ -112,8 +115,12 @@
             "detail": "SQL, PostgreSQL, Oracle DB, MySQL, IBM DB2, MongoDB"
         },
         {
+            "category": "AI & Generative AI",
+            "detail": "LLMs (Conceptual), Retrieval-Augmented Generation (RAG - Learning), Prompt Engineering"
+        },
+        {
             "category": "Cloud & DevOps",
-            "detail": "AWS (EKS, Lambda), Docker, Kubernetes, Kafka, CI/CD (GitLab), AWS Certified Developer and AI Practitioner"
+            "detail": "AWS (EKS, Lambda), Docker, Kubernetes, Kafka, CI/CD (GitLab)"
         },
         {
             "category": "Tools",
@@ -122,18 +129,6 @@
         {
             "category": "Soft Skills",
             "detail": "Leadership, Collaboration, Problem-Solving, Team Management"
-        }
-    ],
-    "certifications": [
-        {
-            "name": "AWS Certified Developer – Associate",
-            "credentialId": "ddc9988b-ed49-4bf2-9f30-aa744ced8043",
-            "link": "https://www.credly.com/badges/ddc9988b-ed49-4bf2-9f30-aa744ced8043/public_url"
-        },
-        {
-            "name": "AWS Certified AI Practitioner",
-            "credentialId": "f3f8d35f-d3c7-406e-a3ce-e9e55dbcc0bf",
-            "link": "https://www.credly.com/badges/f3f8d35f-d3c7-406e-a3ce-e9e55dbcc0bf/public_url"
         }
     ]
 }

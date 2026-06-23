@@ -4,12 +4,14 @@
     <div class="contact-row">
         <a [href]="resume.profile.linkedin.link" target="_blank"
             style="text-decoration: none; color: rgb(0, 68, 255); cursor: pointer;">
-            <span><i class="fa fa-linkedin icon" aria-hidden="true"></i> {{ resume.profile.linkedin.title }}</span>
+            <span>LinkedIn</span>
         </a>
+        <span>|</span>
         <!-- <span><i class="fa fa-code icon" aria-hidden="true"></i> {{ resume.profile.leetcode }}</span> -->
         <!-- <span><i class="fa fa-code icon" aria-hidden="true"></i> {{ resume.profile.hackerank }}</span> -->
-        <span><i class="fa fa-envelope icon" aria-hidden="true"></i> {{ resume.contact.email }}</span>
-        <span><i class="fa fa-phone icon" aria-hidden="true"></i> {{ resume.contact.mobile }}</span>
+        <span>{{ resume.contact.email }}</span>
+        <span>|</span>
+        <span>{{ resume.contact.mobile }}</span>
     </div>
 
     <h2 class="body-title">Summary</h2>
@@ -37,4 +39,11 @@
             <td class="skill-detail">{{ skill.detail }}</td>
         </tr>
     </table>
+
+    <h2 class="body-title">Certifications</h2>
+    <div class="experience-block">
+        <ul class="custom-bullet">
+            <li *ngFor="let cert of resume.certifications"><b>{{ cert.name }}</b> | <a [href]="cert.link">Link to verify</a></li>
+        </ul>
+    </div>
 </div>

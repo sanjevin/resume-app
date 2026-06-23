@@ -29,6 +29,12 @@ export interface Skill {
   detail: string;
 }
 
+export interface Certification {
+  name: string;
+  credentialId: string;
+  link: string;
+}
+
 export interface Resume {
   name: string;
   title: string;
@@ -38,6 +44,6 @@ export interface Resume {
   professionalExperience: ProfessionalExperience[];
   awardsAndAchievements: string[];
   education: Education;
-  certifications: string[];
+  certifications: Certification[];
   skills: Skill[];
 }
