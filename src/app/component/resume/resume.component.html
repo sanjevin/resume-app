@@ -43,7 +43,17 @@
     <h2 class="body-title">Certifications</h2>
     <div class="experience-block">
         <ul class="custom-bullet">
-            <li *ngFor="let cert of resume.certifications"><b>{{ cert.name }}</b> | <a [href]="cert.link">Link to verify</a></li>
+            <li *ngFor="let cert of resume.certifications"><b>{{ cert.name }}</b> | <a [href]="cert.link">Link to
+                    verify</a></li>
+        </ul>
+    </div>
+
+    <h2 class="body-title">Education</h2>
+    <div class="experience-block">
+        <ul class="no-bullet">
+            <li>{{ resume.education.degree }}</li>
+            <li>{{ resume.education.college }}</li>
+            <li>{{ resume.education.period }}</li>
         </ul>
     </div>
 </div>

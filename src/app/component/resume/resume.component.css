@@ -80,6 +80,12 @@
     padding-left: 0;
 }
 
+.no-bullet {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
 .experience-block ul {
     margin: 0.1rem 0 0.6rem 1rem;
     line-height: 1.6;
